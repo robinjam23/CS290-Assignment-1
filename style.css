@@ -1,0 +1,34 @@
+table, th, td{
+  border: 1px solid black;
+}
+
+#not_header:nth-of-type(2n) {background-color: lightblue;}
+#not_header:nth-of-type(2n+1) {background-color: lightgreen;}
+
+#col1{
+  color: red;
+}
+
+#col3{
+  color: blue;
+}
+
+#outer-content{
+  width: 75%;
+  background-color: pink;
+  position: relative;
+  left: 0px;
+  top: 20px;
+  height: 50px;
+}
+
+#inner-content{
+  background-color: lightblue;
+  text-align: center;
+  height: 50%;
+  width: 75%;
+  position: relative;
+  top: 25%;
+  left: 12.5%;
+  right: 25%;
+}
